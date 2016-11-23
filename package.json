@@ -1,0 +1,19 @@
+{
+  "name": "lamassu-mock-sms",
+  "version": "1.0.0",
+  "description": "A fake SMS client for testing lamassu-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshmh/lamassu-mock-sms.git"
+  },
+  "author": "Josh Harvey <josh@lamassu.is> (https://lamassu.is/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshmh/lamassu-mock-sms/issues"
+  },
+  "homepage": "https://github.com/joshmh/lamassu-mock-sms"
+}
