@@ -1,9 +1,6 @@
 exports.NAME = 'MockSMS'
-exports.SUPPORTED_MODULES = []
 
-exports.config = function config () {}
-
-exports.sendMessage = function sendMessage (rec) {
+exports.sendMessage = function sendMessage (account, rec) {
   console.log('Sending SMS: %j', rec)
   return Promise.resolve()
 }
